@@ -1,0 +1,59 @@
+.projects-header-image {
+  background-image: url("./assets/projects2.png");
+  display: flex;
+  background-size: cover;
+  background-position: center 75%;
+  height: 80vh;
+}
+.carousel-item {
+  height: 500px; /* Adjust the height */
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.spacer {
+  margin: 1rem;
+}
+
+.carousel-item img {
+  object-fit: cover; /* Ensures images cover the entire area */
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); /* Caption background */
+  color: white; /* Text color */
+}
+
+.project-title-container {
+  margin: 2rem 0 2rem;
+}
+
+.cost-breakdown {
+  max-width: 400px;
+  max-height: 500px;
+}
+
+.address-title {
+  font-size: x-large;
+  color: #233976;
+}
+
+.figures-header {
+  font-size: x-large;
+  color: #233976;
+}
+
+.figure {
+  font-size: large;
+  color: #233976;
+}
+
+.description-text {
+  font-size: large;
+}
+
+.description-block {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}

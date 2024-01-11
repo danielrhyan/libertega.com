@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" type="text/css" href="./projects.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.5/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="navbar-placeholder" class="fixed-top"></div>
+      <div class="projects-header-image"></div>
+      <div class="container tagline-container">
+        <h1 class="tagline">"Investing in Communities, Growing Prosperity."</h1>
+      </div>
+      <div class="container">
+        <div class="spacer"></div>
+        <div class="card">
+          <div class="card-header address-title">1150 N Durbin</div>
+          <div id="oldCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li
+                data-target="#oldCarousel"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li data-target="#oldCarousel" data-slide-to="1"></li>
+              <li data-target="#oldCarousel" data-slide-to="2"></li>
+              <li data-target="#oldCarousel" data-slide-to="3"></li>
+              <li data-target="#oldCarousel" data-slide-to="4"></li>
+              <li data-target="#oldCarousel" data-slide-to="5"></li>
+              <li data-target="#oldCarousel" data-slide-to="6"></li>
+              <li data-target="#oldCarousel" data-slide-to="7"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div
+                class="carousel-item active"
+                style="background-image: url('./assets/Old-durbin/outside.jpg')"
+              ></div>
+              <div
+                class="carousel-item"
+                style="
+                  background-image: url('./assets/Old-durbin/basement-far.jpg');
+                "
+              ></div>
+              <div
+                class="carousel-item"
+                style="
+                  background-image: url('./assets/Old-durbin/basement-close.jpg');
+                "
+              ></div>
+              <div
+                class="carousel-item"
+                style="
+                  background-image: url('./assets/Old-durbin/basement-center.jpg');
+                "
+              ></div>
+              <div
+                class="carousel-item"
+                style="
+                  background-image: url('./assets/Old-durbin/old-kitchen.jpg');
+                "
+              ></div>
+              <div
+                class="carousel-item"
+                style="
+                  background-image: url('./assets/Old-durbin/upstairs-clean.jpg');
+                "
+              ></div>
+              <div
+                class="carousel-item"
+                style="
+                  background-image: url('./assets/Old-durbin/upstairs-midway.jpg');
+                "
+              ></div>
+              <div
+                class="carousel-item"
+                style="
+                  background-image: url('./assets/Old-durbin/stairwell-basement.jpg');
+                "
+              ></div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a
+              class="carousel-control-prev"
+              href="#oldCarousel"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#oldCarousel"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <div class="card-body">
+            <div class="container">
+              <div class="column">
+                <div class="row">
+                  <div class="col-md-6">
+                    <canvas id="durbinCostBD" class="cost-breakdown"></canvas>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card-header figures-header">
+                      Invsestment Numbers
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item figure">
+                        Total Project Cost - $128,759
+                      </li>
+                      <li class="list-group-item figure">
+                        Resale Less Agent Fee - $185,180
+                      </li>
+                      <li class="list-group-item figure">
+                        Net Profit - $56,421
+                      </li>
+                      <li class="list-group-item figure">
+                        Annualized Cash on Cash - 69%
+                      </li>
+                      <li class="list-group-item figure">
+                        Duration - 7.67 Months
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="row description-block">
+                  <div class="col-md-2"></div>
+                  <div class="col-md-8 text-center">
+                    <p class="description-text">
+                      This project marks a significant achievement in
+                      Libertega's commitment to revitalizing communities and
+                      fostering financial independence. We embarked on a
+                      complete renovation of an early 20th-century residence, a
+                      property that had long stood neglected. Our expert team
+                      meticulously restored this historic home, infusing it with
+                      modern amenities and systems while preserving its unique
+                      architectural charm. The result is a beautifully updated
+                      dwelling that not only enhances the neighborhood's
+                      aesthetic but also offers an affordable housing solution.
+                      This project proudly provided a young family with a
+                      high-quality, cost-effective home, exemplifying our
+                      dedication to creating value through community-focused
+                      development and sustainable investment strategies. This
+                      endeavor is a testament to Libertega's mission to rebuild
+                      communities, one home at a time, while simultaneously
+                      generating tangible returns for our investors.
+                    </p>
+                  </div>
+                  <div class="col-md-1"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li
+                data-target="#myCarousel"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+              <li data-target="#myCarousel" data-slide-to="4"></li>
+              <li data-target="#myCarousel" data-slide-to="5"></li>
+              <li data-target="#myCarousel" data-slide-to="6"></li>
+              <li data-target="#myCarousel" data-slide-to="7"></li>
+              <li data-target="#myCarousel" data-slide-to="8"></li>
+              <li data-target="#myCarousel" data-slide-to="9"></li>
+              <li data-target="#myCarousel" data-slide-to="10"></li>
+              <li data-target="#myCarousel" data-slide-to="11"></li>
+              <li data-target="#myCarousel" data-slide-to="12"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div
+                class="carousel-item active"
+                style="
+                  background-image: url('./assets/new-durbin/1150\ N\ Durbin-1.jpg');
+                  background-position: top right;
+                "
+              ></div>
+              <div
+                class="carousel-item"
+                style="
+                  background-image: url('./assets/new-durbin/1150\ N\ Durbin-3.jpg');
+                "
+              ></div>
+              <div
+                class="carousel-item"
+                style="
+                  background-image: url('./assets/new-durbin/1150\ N\ Durbin-7.jpg');
+                "
+              ></div>
+              <div
+                class="carousel-item"
+                style="
+                  background-image: url('./assets/new-durbin/1150\ N\ Durbin-8.jpg');
+                "
+              ></div>
+              <div
+                class="carousel-item"
+                style="
+                  background-image: url('./assets/new-durbin/1150\ N\ Durbin-9.jpg');
+                "
+              ></div>
+              <div
+                class="carousel-item"
+                style="
+                  background-image: url('./assets/new-durbin/1150\ N\ Durbin-11.jpg');
+                "
+              ></div>
+              <div
+                class="carousel-item"
+                style="
+                  background-image: url('./assets/new-durbin/1150\ N\ Durbin-13.jpg');
+                "
+              ></div>
+              <div
+                class="carousel-item"
+                style="
+                  background-image: url('./assets/new-durbin/1150\ N\ Durbin-14.jpg');
+                "
+              ></div>
+              <div
+                class="carousel-item"
+                style="
+                  background-image: url('./assets/new-durbin/1150\ N\ Durbin-15.jpg');
+                "
+              ></div>
+              <div
+                class="carousel-item"
+                style="
+                  background-image: url('./assets/new-durbin/1150\ N\ Durbin-16.jpg');
+                "
+              ></div>
+              <div
+                class="carousel-item"
+                style="
+                  background-image: url('./assets/new-durbin/1150\ N\ Durbin-17.jpg');
+                "
+              ></div>
+              <div
+                class="carousel-item"
+                style="
+                  background-image: url('./assets/new-durbin/1150\ N\ Durbin-18.jpg');
+                "
+              ></div>
+              <div
+                class="carousel-item"
+                style="
+                  background-image: url('./assets/new-durbin/1150\ N\ Durbin-19.jpg');
+                "
+              ></div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a
+              class="carousel-control-prev"
+              href="#myCarousel"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#myCarousel"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="footer-placeholder"></div>
+    </div>
+  </body>
+  <script src="/projects.js"></script>
+</html>
